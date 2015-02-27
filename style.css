@@ -1,18 +1,31 @@
-.container{
-	height: 90%;
-	background: #333;
+body{
+	margin: 0px;
+	padding: 0px;
 	color: #fff;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.container{
+	height: 100%;
+	background: #333;
 }
 .Question{
-	height: 30%;
-	background: #777;
+	height: 34%;
+	background: #333;
 	border: 1px solid black;
+	text-align: center;
+	font-size: 40px;
 }
 .input{
-	height:30%;
-	background: #999;
+	height:33%;
+	background: #555;
+	text-align: center;
+	font-size: 24px;
 }
 .otherPlayers{
-	height: 30%;
-	background: #111;
+	height: 33%;
+	background: #333;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 16px;
 }
