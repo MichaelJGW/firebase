@@ -42,8 +42,8 @@ var questionMultGenerator = function(){
 };
 
 var questionDivGenerator = function(){
-  var p2 = Math.floor(Math.random()*20);
-  var ans = Math.floor(Math.random() * p1) + 1;  
+  var p2 = Math.floor(Math.random() * 20);
+  var ans = Math.floor(Math.random() * 20);  
   var p1 = ans * p2;
 
   var string = p1 + " / " + p2 + " = ?"
