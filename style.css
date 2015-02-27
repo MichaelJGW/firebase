@@ -1,0 +1,18 @@
+.container{
+	height: 90%;
+	background: #333;
+	color: #fff;
+}
+.Question{
+	height: 30%;
+	background: #777;
+	border: 1px solid black;
+}
+.input{
+	height:30%;
+	background: #999;
+}
+.otherPlayers{
+	height: 30%;
+	background: #111;
+}
