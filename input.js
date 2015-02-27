@@ -1,12 +1,13 @@
 
 function input(){
-	var foo = "<input type='text' name='firstname'>";
-	$( ".input" ).html( "<div class='answerField'><div>Answer</div>" + foo + "</div>" );
 
+	
+	$(".input").append( "<div>Answer</div>");
+	$(".input").append("<input type='text' name='firstname'>");
+	$(".input").keypress(function(e) {
+	    if(e.which == 13) {
+	        alert('You pressed enter!');
+	    }
+	});
 
 }
-$(document).keypress(function(e) {
-    if(e.which == 13) {
-        
-    }
-});
